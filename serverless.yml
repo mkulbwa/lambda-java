@@ -44,8 +44,6 @@ provider:
 #    variable1: value1
 
 # you can add packaging information here
-package:
-  artifact: target/hello-dev.jar
 
 functions:
   hello:
