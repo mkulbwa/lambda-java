@@ -22,6 +22,8 @@ provider:
   runtime: java8
   stage: dev
   region: eu-west-2
+  package:
+  artifact: target/hello-dev.jar
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
